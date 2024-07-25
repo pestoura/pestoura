@@ -1,7 +1,7 @@
 # Hi! This is Pedro Estoura and i'm based in Portugal. 👋 
 
 <p align="left">
-<a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Pedro%20Estoura-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Visit-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-Mail Me-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
