@@ -5,16 +5,7 @@
 <a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-pedro.estoura@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
-I'm a Software Engineer and Developer  with a passion for building and optimizing software systems.
-
-## 🌟 What I Do: 
-I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
-
-## 🔍 Current Focus: 
-I am particularly interested in leveraging modern technologies and best practices to drive innovation and improve system performance. My work often involves integrating various tools and frameworks to create seamless, high-performance solutions.
-
-## 🔗 Connect With Me: 
-Feel free to reach out or connect with me on LinkedIn.
+I'm a **Software Engineer and Developer** with a passion for building and optimizing software systems.
 
 ## 🛠 Tech Stack:
 <p align="left">
@@ -70,6 +61,14 @@ Feel free to reach out or connect with me on LinkedIn.
   <img src="https://img.shields.io/badge/-Nginx-05122A?style=flat&logo=nginx" alt="Nginx" />
 </a>
 
+## 🌟 What I Do: 
+I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
+
+## 🔍 Current Focus: 
+I am particularly interested in leveraging modern technologies and best practices to drive innovation and improve system performance. My work often involves integrating various tools and frameworks to create seamless, high-performance solutions.
+
+## 🔗 Connect With Me: 
+Feel free to reach out or connect with me on LinkedIn.
 
 Looking forward to engaging with the tech community and exploring new opportunities!
 </p>
