@@ -9,7 +9,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 
 ## 🛠 Tech Stack:
 <!-- Linguagens de Programação -->
-<h3>Linguagens de Programação</h3>
+<h3>Linguagens de Programação</h3> 
 <a href="https://www.javascript.com/">
   <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 </a>
@@ -35,7 +35,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 </a>
 
 <!-- Bancos de Dados -->
-<h3>Bancos de Dados</h3>
+<h3>Bancos de Dados</h3> 
 <a href="https://www.mysql.com/">
   <img align="left" alt="MySQL" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 </a>
@@ -49,7 +49,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 </a>
 
 <!-- Frameworks -->
-<h3>Frameworks</h3>
+<h3>Frameworks</h3> 
 <a href="https://reactjs.org/">
   <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 </a>
@@ -67,7 +67,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 </a>
 
 <!-- Ferramentas -->
-<h3>Ferramentas</h3>
+<h3>Ferramentas</h3> 
 <a href="https://git-scm.com/">
   <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </a>
@@ -93,7 +93,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 </a>
 
 <!-- Outras Tecnologias -->
-<h3>Outras Tecnologias</h3>
+<h3>Outras Tecnologias</h3> 
 <a href="https://firebase.google.com/">
   <img align="left" alt="Firebase" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
 </a>
