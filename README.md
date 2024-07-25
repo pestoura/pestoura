@@ -12,20 +12,64 @@ I'm a software engineer interested in tech and content creation.
 
 ## 🛠 Tech Stack:
 <p align="left">
-<a><img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript"/></a>
-<a><img src="https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=TypeScript"/></a>
-<a><img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5"/></a>
-<a><img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6"/></a>
-<a><img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React"/></a>
-<a><img src="https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker"/></a>
-<a><img src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js"/></a>
-<a><img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=PHP"/></a>
-<a><img src="https://img.shields.io/badge/-Kubernetes-05122A?style=flat&logo=kubernetes"/></a>
-<a><img src="https://img.shields.io/badge/-Java-05122A?style=flat&logo=java"/></a>
-<a><img src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql"/></a>
-<a><img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python"/></a>
-<a><img src="https://img.shields.io/badge/-sqlite-05122A?style=flat&logo=sqlite"/></a>
-<a><img src="https://img.shields.io/badge/-Firebase-05122A?style=flat&logo=firebase"/></a>
-<a><img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git"/></a>
+<a href="https://www.javascript.com/">
+  <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" alt="JavaScript" />
+</a>
+
+<a href="https://www.typescriptlang.org/">
+  <img src="https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=TypeScript" alt="TypeScript" />
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+  <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5" alt="HTML" />
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+  <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6" alt="CSS" />
+</a>
+
+<a href="https://reactjs.org/">
+  <img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React" alt="React" />
+</a>
+
+<a href="https://www.docker.com/">
+  <img src="https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker" alt="Docker" />
+</a>
+
+<a href="https://nextjs.org/">
+  <img src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js" alt="Next.js" />
+</a>
+
+<a href="https://www.php.net/">
+  <img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=PHP" alt="PHP" />
+</a>
+
+<a href="https://kubernetes.io/">
+  <img src="https://img.shields.io/badge/-Kubernetes-05122A?style=flat&logo=kubernetes" alt="Kubernetes" />
+</a>
+
+<a href="https://www.java.com/">
+  <img src="https://img.shields.io/badge/-Java-EF2D5E?style=flat&logo=java" alt="Java" />
+</a>
+
+<a href="https://www.mysql.com/">
+  <img src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql" alt="MySQL" />
+</a>
+
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
+</a>
+
+<a href="https://www.sqlite.org/">
+  <img src="https://img.shields.io/badge/-sqlite-05122A?style=flat&logo=sqlite" alt="SQLite" />
+</a>
+
+<a href="https://firebase.google.com/">
+  <img src="https://img.shields.io/badge/-Firebase-05122A?style=flat&logo=firebase" alt="Firebase" />
+</a>
+
+<a href="https://git-scm.com/">
+  <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" alt="Git" />
+</a>
 
 </p>
