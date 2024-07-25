@@ -72,4 +72,11 @@ I'm a software engineer interested in tech and content creation.
   <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" alt="Git" />
 </a>
 
+<a href="https://www.postgresql.org/">
+  <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql" alt="PostgreSQL" />
+</a>
+
+<a href="https://nginx.org/">
+  <img src="https://img.shields.io/badge/-Nginx-009639?style=flat&logo=nginx" alt="Nginx" />
+</a>
 </p>
