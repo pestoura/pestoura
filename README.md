@@ -2,7 +2,7 @@
 
 <p align="left">
 <a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Pedro%20Estoura-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-pedro.estoura@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-Mail Me-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
 I'm a **Software Engineer and Developer** with a passion for building and optimizing software systems.
@@ -43,9 +43,6 @@ I specialize in developing robust, scalable, and efficient applications. My expe
 
 ## 🔍 Current Focus: 
 I am particularly interested in leveraging modern technologies and best practices to drive innovation and improve system performance. My work often involves integrating various tools and frameworks to create seamless, high-performance solutions.
-
-## 🔗 Connect With Me: 
-Feel free to reach out or connect with me on LinkedIn.
 
 Looking forward to engaging with the tech community and exploring new opportunities!
 </p>
