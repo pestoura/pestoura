@@ -104,8 +104,6 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
   <img align="left" alt="Nginx" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
 </a>
 
-
-
 ## 🌟 What I Do: 
 I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
 
