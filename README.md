@@ -18,9 +18,10 @@ I'm a software engineer interested in tech and content creation.
   <a><img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6"/></a>
   <a><img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React"/></a>
   <a><img src="https://img.shields.io/badge/docker-%E2%9D%A4-blue?style=flat&logo=docker"/></a>
-
   <a><img src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js"/></a>
   <a><img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=PHP"/></a>
+  <a><img src="https://img.shields.io/badge/kubernetes-%E2%9D%A4-blue?style=flat&logo=kubernetes"/></a>
+
   <a><img src="https://img.shields.io/badge/-Wordpress-05122A?style=flat-square&logo=wordpress"/></a>
   <a><img src="https://img.shields.io/badge/-Kotlin-05122A?style=flat-square&logo=kotlin"/></a>
   <a><img src="https://img.shields.io/badge/-java-05122A?style=flat-square&logo=java"/></a>
