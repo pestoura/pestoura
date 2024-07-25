@@ -9,7 +9,7 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 
 ## 🛠 Tech Stack:
 <p align="left">
-  <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
 <img align="left" alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
 <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
 <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
@@ -24,57 +24,75 @@ I'm a **Software Engineer and Developer** with a passion for building and optimi
 <img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+
 <a href="https://www.javascript.com/">
-  <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.typescriptlang.org/">
-  <img src="https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=TypeScript" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TypeScript" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-  <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5" alt="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-  <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6" alt="CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://reactjs.org/">
-  <img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React" alt="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.docker.com/">
-  <img src="https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://nextjs.org/">
-  <img src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js" alt="Next.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.php.net/">
-  <img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=PHP" alt="PHP" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://kubernetes.io/">
-  <img src="https://img.shields.io/badge/-Kubernetes-05122A?style=flat&logo=kubernetes" alt="Kubernetes" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.java.com/">
-  <img src="https://img.shields.io/badge/-Java-EF2D5E?style=flat&logo=java" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.mysql.com/">
-  <img src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql" alt="MySQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.python.org/">
-  <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.sqlite.org/">
-  <img src="https://img.shields.io/badge/-sqlite-05122A?style=flat&logo=sqlite" alt="SQLite" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://firebase.google.com/">
-  <img src="https://img.shields.io/badge/-Firebase-05122A?style=flat&logo=firebase" alt="Firebase" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://git-scm.com/">
-  <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://www.postgresql.org/">
-  <img src="https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql" alt="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="30px" style="padding-right:10px;" />
 </a>
+
 <a href="https://nginx.org/">
-  <img src="https://img.shields.io/badge/-Nginx-05122A?style=flat&logo=nginx" alt="Nginx" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" width="30px" style="padding-right:10px;" />
 </a>
+
 
 ## 🌟 What I Do: 
 I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
