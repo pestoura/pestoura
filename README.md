@@ -1,4 +1,4 @@
-# Hi! This is Pedro Estoura and i'm based in Portugal. 👋 
+ Hi! This is **Pedro Estoura** and i'm based in **Portugal**. 👋 
 
 <p align="left">
 <a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Visit-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
