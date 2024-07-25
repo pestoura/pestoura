@@ -20,14 +20,10 @@ I'm a software engineer interested in tech and content creation.
   <a><img src="https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker"/></a>
   <a><img src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js"/></a>
   <a><img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=PHP"/></a>
-  <a><img src="https://img.shields.io/badge/kubernetes-%E2%9D%A4-blue?style=flat&logo=kubernetes"/></a>
-
-  <a><img src="https://img.shields.io/badge/-Wordpress-05122A?style=flat-square&logo=wordpress"/></a>
-  <a><img src="https://img.shields.io/badge/-Kotlin-05122A?style=flat-square&logo=kotlin"/></a>
-  <a><img src="https://img.shields.io/badge/-java-05122A?style=flat-square&logo=java"/></a>
-  <a><img src="https://img.shields.io/badge/-MySQL-05122A?style=flat-square&logo=mysql"/></a>
+  <a><img src="https://img.shields.io/badge/-Kubernetes-05122A?style=flat&logo=kubernetes"/></a>
+  <a><img src="https://img.shields.io/badge/-java-05122A?style=flat&logo=java"/></a>
+  <a><img src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql"/></a>
   <a><img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python"/></a>
-  <a><img src="https://img.shields.io/badge/-Flutter-05122A?style=flat&logo=flutter"/></a>
   <a><img src="https://img.shields.io/badge/-sqlite-05122A?style=flat&logo=sqlite"/></a>
   <a><img src="https://img.shields.io/badge/-Firebase-05122A?style=flat&logo=firebase"/></a>
   <a><img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git"/></a>
