@@ -5,15 +5,15 @@
 <a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-pedro.estoura@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
-I'm a *Software Engineer and Developer with a passion for building and optimizing software systems.
+I'm a Software Engineer and Developer  with a passion for building and optimizing software systems.
 
-##🌟 What I Do: 
+## 🌟 What I Do: 
 I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
 
-##🔍 Current Focus: 
+## 🔍 Current Focus: 
 I am particularly interested in leveraging modern technologies and best practices to drive innovation and improve system performance. My work often involves integrating various tools and frameworks to create seamless, high-performance solutions.
 
-🔗 Connect With Me: 
+## 🔗 Connect With Me: 
 Feel free to reach out or connect with me on LinkedIn.
 
 ## 🛠 Tech Stack:
