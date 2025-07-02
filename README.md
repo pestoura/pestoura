@@ -1,48 +1,71 @@
-### Hi! This is **Pedro Estoura** and i'm based in **Portugal**. 👋 
+Excelente pedido. Esta é a evolução natural e necessária. O seu perfil no GitHub é o seu "ateliê técnico", e ele precisa de refletir o Mestre que você se tornou, não apenas as ferramentas que usava no início.
+
+Como seu consultor de carreira, a minha análise é clara: o seu perfil atual grita "developer", enquanto a sua carreira grita "líder estratégico". Esta dissonância pode confundir um recrutador técnico ou um hiring manager que visite a sua página.
+
+A nossa missão: Re-arquitetar o seu perfil no GitHub para contar a história de um "IT & Cybersecurity Leader" que tem um profundo conhecimento prático ("has the receipts"). Vamos usar uma linguagem de "builder", de quem "ships" não só código, mas resiliência.
+
+A Estratégia
+
+Rebranding da Biografia: Mudar de "Software Engineer" para "IT & Cybersecurity Leader". Focar na sua missão de "ponte".
+
+Nova Secção Estratégica: Criaremos uma secção no topo, "My Playbook: Governance, Risk & Resilience", com ícones/emojis para os seus frameworks. Isto estabelece a sua senioridade antes de mostrar a tecnologia.
+
+Reforçar o Tech Stack: Criaremos uma subsecção dedicada a "Cybersecurity & GRC Tooling". Aqui, vamos adicionar as ferramentas de elite que discutimos (SIEM, XDR, IaC, etc.).
+
+Recontextualizar: A sua stack de desenvolvimento existente será re-apresentada como a sua "Technical Foundation", as ferramentas que lhe dão credibilidade para liderar equipas técnicas.
+
+O Seu Novo README.md (Código Markdown)
+
+Basta copiar e colar este código completo.
+
+Generated markdown
+### Hi there, I'm **Pedro Estoura** 👋 
 
 <p align="left">
-<a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Visit-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-Mail Me-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Connect_on_LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-Contact_Me-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
-I'm a **Software Engineer and Developer** with a passion for building and optimizing software systems.
+I'm a senior **IT & Cybersecurity Leader** passionate about building secure, resilient, and high-performing organizations. My core mission is to bridge the gap between business strategy and technical execution, transforming security from a gatekeeper into a powerful business enabler.
 
-### 🛠 Tech Stack:
-<!-- Linguagens de Programação -->
-### <small>Linguagens de Programação</small>
-| <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" /></a> | <a href="https://golang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="Go logo" /></a> | <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C# logo" /></a> | <a href="https://www.cplusplus.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++ logo" /></a> | <a href="https://www.javascript.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" /></a> | <a href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo" /></a> | <a href="https://www.php.net/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="PHP logo" /></a> |
+---
+
+### 🛡️ My Playbook: Governance, Risk & Resilience
+
+I architect and lead programs based on globally recognized best practices. My expertise is in operationalizing these frameworks to reduce risk and drive business value.
+
+| <p align="center">📜<br>ISO 27001 / 22301</p> | <p align="center">🇪🇺<br>NIS2 / DORA</p> | <p align="center">⚙️<br>ITIL v4</p> | <p align="center">🎯<br>NIST CSF</p> | <p align="center">💳<br>PCI-DSS / SOX</p> | <p align="center">🚀<br>Agile / Scrum</p> |
+|---|---|---|---|---|---|
+| Information Security & Business Continuity | EU Cyber & Operational Resilience | IT Service Management | Cybersecurity Framework | Financial & Payment Compliance | Project Delivery |
+
+---
+
+### 🛠️ My Toolbox: The Tech Behind the Strategy
+
+My leadership is informed by deep, hands-on experience across the entire tech stack. Here are the tools I leverage to build, secure, and deliver.
+
+<!-- Cybersecurity & GRC Tooling -->
+### <small>Cybersecurity & GRC Tooling</small>
+| <a href="#"><img src="https://img.icons8.com/fluency/48/microsoft-sentinel.png" height="40" alt="Azure Sentinel logo" /></a> | <a href="#"><img src="https://img.icons8.com/color/48/crowdstrike.png" height="40" alt="CrowdStrike logo" /></a> | <a href="#"><img src="https://img.icons8.com/color/48/lock-2.png" height="40" alt="CSPM/CWPP icon" /></a> | <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="Terraform logo" /></a> | <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snyk/snyk-original.svg" height="40" alt="Snyk logo" /></a> |
+|---|---|---|---|---|
+| **SIEM/SOAR** (Azure Sentinel) | **XDR** (CrowdStrike, Defender) | **CSPM/CWPP** (Cloud Security) | **IaC** (Terraform, Bicep) | **DevSecOps** (Snyk, SAST/DAST) |
+
+<!-- DevOps, Cloud & Platforms -->
+### <small>DevOps, Cloud & Platforms</small>
+| <a href="https://azure.microsoft.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="Azure logo" /></a> | <a href="https://aws.amazon.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="AWS logo" /></a> | <a href="https://www.docker.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker logo" /></a> | <a href="https://kubernetes.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes logo" /></a> | <a href="https://www.jenkins.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="40" alt="Jenkins logo" /></a> | <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git logo" /></a> | <a href="https://www.linux.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" /></a> |
 |---|---|---|---|---|---|---|
-| Python | Go | C# | C++ | JavaScript | TypeScript | PHP |
+| Azure | AWS | Docker | Kubernetes | Jenkins | Git | Linux |
 
-<!-- Frameworks -->
-### <small>Frameworks</small>
-| <a href="https://fastapi.tiangolo.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI logo" /></a> | <a href="https://www.djangoproject.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="Django logo" /></a> | <a href="https://reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React logo" /></a> |
-|---|---|---|
-| FastAPI | Django | React |
 
-<!-- Bancos de Dados -->
-### <small>Bancos de Dados</small>
-| <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL logo" /></a> | <a href="https://www.sqlite.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" height="40" alt="SQLite logo" /></a> | <a href="https://redis.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" height="40" alt="Redis logo" /></a> |
-|---|---|---|
-| PostgreSQL | SQLite | Redis |
+<!-- Programming & Scripting -->
+### <small>Programming & Scripting</small>
+| <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" /></a> | <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash logo" /></a> | <a href="https://learn.microsoft.com/en-us/powershell/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" height="40" alt="PowerShell logo" /></a> | <a href="https://www.javascript.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" /></a> |
+|---|---|---|---|
+| Python | Bash | PowerShell | JavaScript |
 
-<!-- Ferramentas -->
-### <small>Ferramentas</small>
-| <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git logo" /></a> | <a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub logo" /></a> | <a href="https://about.gitlab.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="GitLab logo" /></a> | <a href="https://www.docker.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker logo" /></a> | <a href="https://kubernetes.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes logo" /></a> | <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VSCode logo" /></a> | <a href="https://www.linux.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" /></a> |
-|---|---|---|---|---|---|---|
-| Git | GitHub | GitLab | Docker | Kubernetes | VSCode | Linux |
 
-<!-- Outras Tecnologias -->
-### <small>Outras Tecnologias</small>
-| <a href="https://www.html.com/html5/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo" /></a> | <a href="https://www.w3.org/Style/CSS/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3 logo" /></a> | <a href="https://www.javascript.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" /></a> | <a href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo" /></a> | <a href="https://pandas.pydata.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="Pandas logo" /></a> | <a href="https://docs.pytest.org/en/latest/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original-wordmark.svg" height="40" alt="Pytest logo" /></a> | <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash logo" /></a> |
-|---|---|---|---|---|---|---|
-| HTML5 | CSS3 | JavaScript | TypeScript | Pandas | Pytest | Bash |
+---
+### 🚀 My Philosophy
+I'm a "builder" at heart. Whether it's building a security program, a high-performing team, or a resilient infrastructure, I thrive on creating lasting value. I believe in a low-ego, collaborative culture where we ship solutions, not just code.
 
-### 🌟 What I Do: 
-I specialize in developing robust, scalable, and efficient applications. My expertise spans both front-end and back-end development, and I take pride in crafting solutions that not only meet technical requirements but also enhance user experiences. I am deeply involved in all stages of the development lifecycle, from architecture design to deployment and maintenance.
-
-### 🔍 Current Focus: 
-I am particularly interested in leveraging modern technologies and best practices to drive innovation and improve system performance. My work often involves integrating various tools and frameworks to create seamless, high-performance solutions.
-
-Looking forward to engaging with the tech community and exploring new opportunities!
-</p>
+Open to connecting with peers, discussing challenges in the GRC and cyber resilience space, or exploring new opportunities.
