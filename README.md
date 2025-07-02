@@ -1,32 +1,11 @@
-Excelente pedido. Esta é a evolução natural e necessária. O seu perfil no GitHub é o seu "ateliê técnico", e ele precisa de refletir o Mestre que você se tornou, não apenas as ferramentas que usava no início.
-
-Como seu consultor de carreira, a minha análise é clara: o seu perfil atual grita "developer", enquanto a sua carreira grita "líder estratégico". Esta dissonância pode confundir um recrutador técnico ou um hiring manager que visite a sua página.
-
-A nossa missão: Re-arquitetar o seu perfil no GitHub para contar a história de um "IT & Cybersecurity Leader" que tem um profundo conhecimento prático ("has the receipts"). Vamos usar uma linguagem de "builder", de quem "ships" não só código, mas resiliência.
-
-A Estratégia
-
-Rebranding da Biografia: Mudar de "Software Engineer" para "IT & Cybersecurity Leader". Focar na sua missão de "ponte".
-
-Nova Secção Estratégica: Criaremos uma secção no topo, "My Playbook: Governance, Risk & Resilience", com ícones/emojis para os seus frameworks. Isto estabelece a sua senioridade antes de mostrar a tecnologia.
-
-Reforçar o Tech Stack: Criaremos uma subsecção dedicada a "Cybersecurity & GRC Tooling". Aqui, vamos adicionar as ferramentas de elite que discutimos (SIEM, XDR, IaC, etc.).
-
-Recontextualizar: A sua stack de desenvolvimento existente será re-apresentada como a sua "Technical Foundation", as ferramentas que lhe dão credibilidade para liderar equipas técnicas.
-
-O Seu Novo README.md (Código Markdown)
-
-Basta copiar e colar este código completo.
-
-Generated markdown
-### Hi there, I'm **Pedro Estoura** 👋 
+### Hi there, I'm **Pedro Estoura** 👋
 
 <p align="left">
 <a href="https://www.linkedin.com/in/pedroestoura"><img src="https://img.shields.io/badge/-Connect_on_LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:pedro.estoura@gmail.com"><img src="https://img.shields.io/badge/-Contact_Me-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
 
-I'm a senior **IT & Cybersecurity Leader** passionate about building secure, resilient, and high-performing organizations. My core mission is to bridge the gap between business strategy and technical execution, transforming security from a gatekeeper into a powerful business enabler.
+I'm a **Resilience Architect & IT/Security Strategist**. My passion is architecting and building robust, secure, and scalable systems that enable businesses to thrive. I bridge the gap between high-level business objectives and deep technical implementation, ensuring security is a catalyst for innovation, not a blocker.
 
 ---
 
@@ -40,32 +19,44 @@ I architect and lead programs based on globally recognized best practices. My ex
 
 ---
 
-### 🛠️ My Toolbox: The Tech Behind the Strategy
+### 🛠️ My Tech Arsenal: The Stack I Command
 
-My leadership is informed by deep, hands-on experience across the entire tech stack. Here are the tools I leverage to build, secure, and deliver.
+My strategic vision is backed by extensive, hands-on expertise across the full spectrum of modern IT.
 
-<!-- Cybersecurity & GRC Tooling -->
-### <small>Cybersecurity & GRC Tooling</small>
-| <a href="#"><img src="https://img.icons8.com/fluency/48/microsoft-sentinel.png" height="40" alt="Azure Sentinel logo" /></a> | <a href="#"><img src="https://img.icons8.com/color/48/crowdstrike.png" height="40" alt="CrowdStrike logo" /></a> | <a href="#"><img src="https://img.icons8.com/color/48/lock-2.png" height="40" alt="CSPM/CWPP icon" /></a> | <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="Terraform logo" /></a> | <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snyk/snyk-original.svg" height="40" alt="Snyk logo" /></a> |
+<!-- Cybersecurity & GRC -->
+### <small>Cybersecurity & GRC</small>
+| <a href="#"><img src="https://img.icons8.com/fluency/48/microsoft-sentinel.png" height="40" alt="Azure Sentinel logo"/></a> | <a href="#"><img src="https://img.icons8.com/color/48/crowdstrike.png" height="40" alt="CrowdStrike logo"/></a> | <a href="#"><img src="https://img.icons8.com/color/48/palo-alto-networks.png" height="40" alt="Palo Alto logo"/></a> | <a href="#"><img src="https://img.icons8.com/color/48/lock-2.png" height="40" alt="CSPM icon"/></a> | <a href="https://www.zscaler.com/"><img src="https://img.icons8.com/color/48/zscaler.png" height="40" alt="Zscaler logo"/></a> | <a href="https://www.snyk.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snyk/snyk-original.svg" height="40" alt="Snyk logo"/></a> |
+|---|---|---|---|---|---|
+| **SIEM/SOAR** (Sentinel) | **XDR/EDR** (CrowdStrike) | **NGFW** (Palo Alto) | **CSPM/CWPP** | **SASE** (Zscaler) | **DevSecOps** (Snyk) |
+
+<!-- Cloud & Platforms -->
+### <small>Cloud & Platforms</small>
+| <a href="https://azure.microsoft.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="Azure logo"/></a> | <a href="https://aws.amazon.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="AWS logo"/></a> | <a href="https://cloud.google.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="GCP logo"/></a> | <a href="https://www.vmware.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vmware/vmware-original.svg" height="40" alt="VMware logo"/></a> |
+|---|---|---|---|
+| Azure | AWS | Google Cloud | VMware |
+
+<!-- IaC, Automation & CI/CD -->
+### <small>IaC, Automation & CI/CD</small>
+| <a href="https://www.terraform.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="Terraform logo"/></a> | <a href="https://www.ansible.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="40" alt="Ansible logo"/></a> | <a href="https://www.jenkins.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="40" alt="Jenkins logo"/></a> | <a href="https://about.gitlab.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="GitLab logo"/></a> | <a href="https://github.com/features/actions"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="40" alt="GitHub Actions logo"/></a> |
 |---|---|---|---|---|
-| **SIEM/SOAR** (Azure Sentinel) | **XDR** (CrowdStrike, Defender) | **CSPM/CWPP** (Cloud Security) | **IaC** (Terraform, Bicep) | **DevSecOps** (Snyk, SAST/DAST) |
+| Terraform | Ansible | Jenkins | GitLab CI/CD | GitHub Actions |
 
-<!-- DevOps, Cloud & Platforms -->
-### <small>DevOps, Cloud & Platforms</small>
-| <a href="https://azure.microsoft.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="Azure logo" /></a> | <a href="https://aws.amazon.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="AWS logo" /></a> | <a href="https://www.docker.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker logo" /></a> | <a href="https://kubernetes.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes logo" /></a> | <a href="https://www.jenkins.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="40" alt="Jenkins logo" /></a> | <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git logo" /></a> | <a href="https://www.linux.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" /></a> |
-|---|---|---|---|---|---|---|
-| Azure | AWS | Docker | Kubernetes | Jenkins | Git | Linux |
-
+<!-- Containers & Orchestration -->
+### <small>Containers & Orchestration</small>
+| <a href="https://www.docker.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker logo"/></a> | <a href="https://kubernetes.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes logo"/></a> | <a href="https://azure.microsoft.com/en-us/services/kubernetes-service/"><img src="https://img.icons8.com/fluency/48/azure-kubernetes-service.png" height="40" alt="AKS logo"/></a> | <a href="https://aws.amazon.com/eks/"><img src="https://img.icons8.com/color/48/amazon-eks.png" height="40" alt="EKS logo"/></a> |
+|---|---|---|---|
+| Docker | Kubernetes | AKS | EKS |
 
 <!-- Programming & Scripting -->
 ### <small>Programming & Scripting</small>
-| <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" /></a> | <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash logo" /></a> | <a href="https://learn.microsoft.com/en-us/powershell/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" height="40" alt="PowerShell logo" /></a> | <a href="https://www.javascript.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" /></a> |
-|---|---|---|---|
-| Python | Bash | PowerShell | JavaScript |
-
+| <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo"/></a> | <a href="https://golang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="Go logo"/></a> | <a href="https://www.rust-lang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="40" alt="Rust logo"/></a> | <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C# logo"/></a> | <a href="https://www.cplusplus.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++ logo"/></a> | <a href="https://www.java.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java logo"/></a> | <a href="https://www.ruby-lang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" height="40" alt="Ruby logo"/></a> |
+|---|---|---|---|---|---|---|
+| <a href="https://www.javascript.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo"/></a> | <a href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo"/></a> | <a href="https://www.php.net/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="PHP logo"/></a> | <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash logo"/></a> | <a href="https://learn.microsoft.com/en-us/powershell/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" height="40" alt="PowerShell logo"/></a> | <a href="#"><img src="https://img.icons8.com/color/48/sql.png" height="40" alt="SQL logo"/></a> |
+|---|---|---|---|---|---|
 
 ---
-### 🚀 My Philosophy
-I'm a "builder" at heart. Whether it's building a security program, a high-performing team, or a resilient infrastructure, I thrive on creating lasting value. I believe in a low-ego, collaborative culture where we ship solutions, not just code.
 
-Open to connecting with peers, discussing challenges in the GRC and cyber resilience space, or exploring new opportunities.
+### 🚀 My Philosophy
+I'm a "builder" at heart. Whether it's crafting a security program, scaling a cloud infrastructure, or leading a high-performing team, I thrive on creating lasting value. I believe in a low-ego, collaborative culture where we ship resilient solutions, not just features.
+
+I'm always open to connecting with peers, discussing complex resilience challenges, or exploring opportunities where I can help build more secure and robust organizations.
