@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch yearly commit contribution languages for the profile SVG.
+"""Fetch a contribution-weighted yearly repository language mix.
 
-Uses the same GitHub GraphQL contribution source as github-profile-3d-contrib,
-but keeps more languages available for the local post-processor.
+GitHub reports commit contributions per repository, while repositories expose a
+language-size breakdown. Combining both lets the local SVG show more than only
+the repository primary language without adding external dependencies.
 """
 
 from __future__ import annotations
@@ -17,6 +18,7 @@ from collections import defaultdict
 from pathlib import Path
 
 GRAPHQL_URL = "https://api.github.com/graphql"
+WEIGHT_SCALE = 1_000_000
 
 
 def fetch_languages(user: str, year: int, token: str) -> dict:
@@ -29,8 +31,16 @@ def fetch_languages(user: str, year: int, token: str) -> dict:
         ) {
           totalCommitContributions
           commitContributionsByRepository(maxRepositories: 100) {
-            repository { primaryLanguage { name } }
             contributions { totalCount }
+            repository {
+              primaryLanguage { name }
+              languages(first: 20, orderBy: {field: SIZE, direction: DESC}) {
+                edges {
+                  size
+                  node { name }
+                }
+              }
+            }
           }
         }
       }
@@ -64,24 +74,48 @@ def fetch_languages(user: str, year: int, token: str) -> dict:
     collection = user_data["contributionsCollection"]
     aggregate: dict[str, int] = defaultdict(int)
     unattributed = 0
+    contributing_repositories = 0
+
     for item in collection.get("commitContributionsByRepository", []):
-        count = int(item.get("contributions", {}).get("totalCount", 0) or 0)
-        language = (item.get("repository", {}).get("primaryLanguage") or {}).get("name")
-        if language:
-            aggregate[language] += count
+        commit_count = int(item.get("contributions", {}).get("totalCount", 0) or 0)
+        if commit_count <= 0:
+            continue
+        contributing_repositories += 1
+
+        repository = item.get("repository", {})
+        edges = repository.get("languages", {}).get("edges", []) or []
+        weighted_edges = []
+        for edge in edges:
+            name = (edge.get("node") or {}).get("name")
+            size = int(edge.get("size", 0) or 0)
+            if name and size > 0:
+                weighted_edges.append((name, size))
+
+        total_size = sum(size for _, size in weighted_edges)
+        if total_size > 0:
+            for name, size in weighted_edges:
+                weighted_units = round(commit_count * WEIGHT_SCALE * size / total_size)
+                aggregate[name] += weighted_units
+            continue
+
+        primary = (repository.get("primaryLanguage") or {}).get("name")
+        if primary:
+            aggregate[primary] += commit_count * WEIGHT_SCALE
         else:
-            unattributed += count
+            unattributed += commit_count
 
     languages = [
-        {"language": language, "contributions": contributions}
-        for language, contributions in sorted(
+        {"language": language, "contributions": weight}
+        for language, weight in sorted(
             aggregate.items(), key=lambda pair: (-pair[1], pair[0].lower())
         )
-        if contributions > 0
+        if weight > 0
     ]
     return {
         "user": user,
         "year": year,
+        "basis": "commit-contribution-weighted repository language size",
+        "contributing_repositories": contributing_repositories,
         "total_commit_contributions": int(collection.get("totalCommitContributions", 0) or 0),
         "unattributed_contributions": unattributed,
         "languages": languages,
@@ -103,13 +137,13 @@ def main() -> int:
 
     result = fetch_languages(args.user, args.year, token)
     if not result["languages"]:
-        raise RuntimeError("no attributed contribution languages returned")
+        raise RuntimeError("no attributed repository languages returned")
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
-        f"Fetched {len(result['languages'])} languages for {args.user} ({args.year}); "
-        f"top chart can show up to 10 plus residual."
+        f"Fetched {len(result['languages'])} weighted languages across "
+        f"{result['contributing_repositories']} contributed repositories for {args.user} ({args.year})."
     )
     return 0
 
