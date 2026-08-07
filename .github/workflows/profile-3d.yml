@@ -12,6 +12,9 @@ concurrency:
   group: profile-3d
   cancel-in-progress: false
 
+env:
+  PROFILE_YEAR: "2026"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,10 +23,24 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate 3D contribution SVGs
-        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          YEAR: ${{ env.PROFILE_YEAR }}
+
+      - name: Add temporal context to 3D SVG
+        run: >-
+          python3 scripts/postprocess_profile_3d.py
+          --input profile-3d-contrib/profile-night-green.svg
+          --year "$PROFILE_YEAR"
+
+      - name: Validate generated 3D SVG
+        run: >-
+          python3 scripts/postprocess_profile_3d.py
+          --input profile-3d-contrib/profile-night-green.svg
+          --year "$PROFILE_YEAR"
+          --check
 
       - name: Commit generated SVGs
         run: |
