@@ -18,9 +18,7 @@
 
 <div align="center">
 
-<img src="./profile/github-stats.svg" alt="GitHub stats" height="170" />
-&nbsp;
-<img src="./profile/github-streak.svg" alt="Contribution streak" height="170" />
+<img src="./profile/github-streak.svg" alt="Contribution streak" height="180" />
 
 <br />
 <br />

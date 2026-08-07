@@ -44,8 +44,6 @@ jobs:
             return 0
           }
 
-          fetch "https://github-readme-stats.vercel.app/api?username=${USER_LOGIN}&show_icons=true&hide_border=true&bg_color=00000000&title_color=3fb950&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true" \
-                profile/github-stats.svg
           fetch "https://streak-stats.demolab.com/?user=${USER_LOGIN}&theme=github-dark-blue&hide_border=true&background=00000000&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" \
                 profile/github-streak.svg
           fetch "https://github-readme-activity-graph.vercel.app/graph?username=${USER_LOGIN}&theme=github-compact&bg_color=00000000&color=c9d1d9&line=3fb950&point=3fb950&hide_border=true" \
