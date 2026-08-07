@@ -32,6 +32,21 @@ jobs:
           config_timezone: Europe/Lisbon
           config_display: large
 
+      - name: Locate generated stats card
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+          if [ ! -s profile/github-stats.svg ]; then
+            found="$(find "$GITHUB_WORKSPACE" /metrics_renders -name '*.svg' -newermt '-10 minutes' 2>/dev/null | grep -v profile-3d-contrib | head -1 || true)"
+            if [ -n "$found" ]; then
+              cp "$found" profile/github-stats.svg
+              echo "recovered stats card from $found"
+            else
+              echo "warning: stats card not produced this run"
+            fi
+          fi
+          ls -l profile || true
+
       - name: Fetch complementary metric SVGs
         env:
           USER_LOGIN: ${{ github.repository_owner }}
