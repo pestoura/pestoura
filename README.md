@@ -23,6 +23,10 @@
 
 ### Activity
 
+<img src="./profile/github-stats.svg" alt="GitHub activity overview" width="90%" />
+
+<br />
+
 <img src="./profile/github-streak.svg" alt="Contribution streak" height="180" />
 
 <br />
