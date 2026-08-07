@@ -19,13 +19,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch metric SVGs
+      - name: Generate GitHub stats card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: profile/github-stats.svg
+          committer_branch: ${{ github.ref_name }}
+          output_action: none
+          template: classic
+          base: header, activity, community
+          config_timezone: Europe/Lisbon
+          config_display: large
+
+      - name: Fetch complementary metric SVGs
         env:
           USER_LOGIN: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
           mkdir -p profile
-          THEME="theme=github_dark&hide_border=true&bg_color=00000000"
 
           fetch() {
             url="$1"; out="$2"; tmp="$(mktemp)"
@@ -45,8 +57,6 @@ jobs:
             return 0
           }
 
-          fetch "https://github-readme-stats.vercel.app/api?username=${USER_LOGIN}&show_icons=true&${THEME}&icon_color=3fb950&title_color=3fb950&text_color=c9d1d9" \
-                profile/github-stats.svg
           fetch "https://streak-stats.demolab.com/?user=${USER_LOGIN}&theme=github-dark-blue&hide_border=true&background=00000000&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" \
                 profile/github-streak.svg
           fetch "https://github-readme-activity-graph.vercel.app/graph?username=${USER_LOGIN}&theme=github-compact&bg_color=00000000&color=c9d1d9&line=3fb950&point=3fb950&hide_border=true" \
