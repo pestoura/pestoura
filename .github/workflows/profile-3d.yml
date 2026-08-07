@@ -22,6 +22,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
+      - name: Validate profile scripts
+        run: >-
+          python3 -m py_compile
+          scripts/fetch_profile_languages.py
+          scripts/postprocess_profile_3d.py
+
       - name: Generate 3D contribution SVGs
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
@@ -29,28 +35,53 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           YEAR: ${{ env.PROFILE_YEAR }}
 
-      - name: Add temporal context to 3D SVG
+      - name: Fetch yearly language contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: >-
-          python3 scripts/postprocess_profile_3d.py
-          --input profile-3d-contrib/profile-night-green.svg
+          python3 scripts/fetch_profile_languages.py
+          --user "${{ github.repository_owner }}"
           --year "$PROFILE_YEAR"
+          --output /tmp/profile-languages.json
 
-      - name: Validate generated 3D SVG
+      - name: Enhance dark 3D SVG
         run: >-
           python3 scripts/postprocess_profile_3d.py
           --input profile-3d-contrib/profile-night-green.svg
           --year "$PROFILE_YEAR"
-          --check
+          --theme dark
+          --languages-json /tmp/profile-languages.json
+
+      - name: Enhance light 3D SVG
+        run: >-
+          python3 scripts/postprocess_profile_3d.py
+          --input profile-3d-contrib/profile-green.svg
+          --year "$PROFILE_YEAR"
+          --theme light
+          --languages-json /tmp/profile-languages.json
+
+      - name: Validate enhanced 3D SVGs
+        run: |
+          python3 scripts/postprocess_profile_3d.py \
+            --input profile-3d-contrib/profile-night-green.svg \
+            --year "$PROFILE_YEAR" \
+            --theme dark \
+            --check
+          python3 scripts/postprocess_profile_3d.py \
+            --input profile-3d-contrib/profile-green.svg \
+            --year "$PROFILE_YEAR" \
+            --theme light \
+            --check
 
       - name: Commit generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-3d-contrib
+          git add profile-3d-contrib/profile-night-green.svg profile-3d-contrib/profile-green.svg
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(profile): update 3D contribution graph"
+            git commit -m "chore(profile): update adaptive 3D contribution graphs"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
