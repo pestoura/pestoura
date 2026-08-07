@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="92%" />
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contributions 2026" width="92%" />
 
 </div>
 
