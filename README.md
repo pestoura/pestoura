@@ -11,9 +11,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
-  <img src="./profile-3d-contrib/profile-green.svg" alt="3D contributions 2026" width="92%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-2026-dark-v3.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-2026-light-v3.svg" />
+  <img src="./profile-3d-contrib/profile-2026-light-v3.svg" alt="3D contributions 2026" width="92%" />
 </picture>
 
 </div>
