@@ -1,0 +1,66 @@
+name: Generate profile metric SVGs
+
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch metric SVGs
+        env:
+          USER_LOGIN: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+          THEME="theme=github_dark&hide_border=true&bg_color=00000000"
+
+          fetch() {
+            url="$1"; out="$2"; tmp="$(mktemp)"
+            for attempt in 1 2 3; do
+              if curl -fsSL --max-time 40 "$url" -o "$tmp"; then
+                if head -c 200 "$tmp" | grep -qi "<svg"; then
+                  mv "$tmp" "$out"
+                  echo "ok: $out"
+                  return 0
+                fi
+              fi
+              echo "retry $attempt for $out"
+              sleep 10
+            done
+            echo "warning: could not refresh $out, keeping previous version"
+            rm -f "$tmp"
+            return 0
+          }
+
+          fetch "https://github-readme-stats.vercel.app/api?username=${USER_LOGIN}&show_icons=true&${THEME}&icon_color=3fb950&title_color=3fb950&text_color=c9d1d9" \
+                profile/github-stats.svg
+          fetch "https://streak-stats.demolab.com/?user=${USER_LOGIN}&theme=github-dark-blue&hide_border=true&background=00000000&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" \
+                profile/github-streak.svg
+          fetch "https://github-readme-activity-graph.vercel.app/graph?username=${USER_LOGIN}&theme=github-compact&bg_color=00000000&color=c9d1d9&line=3fb950&point=3fb950&hide_border=true" \
+                profile/activity-graph.svg
+
+      - name: Commit metric SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(profile): update metric graphics"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
