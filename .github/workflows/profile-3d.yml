@@ -22,6 +22,7 @@ concurrency:
 
 env:
   PROFILE_YEAR: "2026"
+  PROFILE_RENDER_VERSION: "v3"
 
 jobs:
   build:
@@ -68,28 +69,88 @@ jobs:
           --theme light
           --languages-json /tmp/profile-languages.json
 
+      - name: Publish cache-busted presentation SVGs
+        run: |
+          cp profile-3d-contrib/profile-night-green.svg \
+            "profile-3d-contrib/profile-${PROFILE_YEAR}-dark-${PROFILE_RENDER_VERSION}.svg"
+          cp profile-3d-contrib/profile-green.svg \
+            "profile-3d-contrib/profile-${PROFILE_YEAR}-light-${PROFILE_RENDER_VERSION}.svg"
+
       - name: Validate enhanced 3D SVGs
         run: |
           python3 scripts/postprocess_profile_3d.py \
-            --input profile-3d-contrib/profile-night-green.svg \
+            --input "profile-3d-contrib/profile-${PROFILE_YEAR}-dark-${PROFILE_RENDER_VERSION}.svg" \
             --year "$PROFILE_YEAR" \
             --theme dark \
             --check
           python3 scripts/postprocess_profile_3d.py \
-            --input profile-3d-contrib/profile-green.svg \
+            --input "profile-3d-contrib/profile-${PROFILE_YEAR}-light-${PROFILE_RENDER_VERSION}.svg" \
             --year "$PROFILE_YEAR" \
             --theme light \
             --check
+
+      - name: Verify rendered language chart matches source
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          ns = "{http://www.w3.org/2000/svg}"
+          data = json.loads(Path("/tmp/profile-languages.json").read_text(encoding="utf-8"))
+          expected = min(len(data["languages"]), 10)
+          if expected < 1:
+              raise SystemExit("No languages available for chart validation")
+
+          year = os.environ["PROFILE_YEAR"]
+          version = os.environ["PROFILE_RENDER_VERSION"]
+          files = (
+              Path(f"profile-3d-contrib/profile-{year}-dark-{version}.svg"),
+              Path(f"profile-3d-contrib/profile-{year}-light-{version}.svg"),
+          )
+
+          for path in files:
+              root = ET.parse(path).getroot()
+              chart = next(
+                  (g for g in root.iter(ns + "g") if g.attrib.get("id") == "profile-language-chart"),
+                  None,
+              )
+              if chart is None:
+                  raise SystemExit(f"Custom language chart missing: {path}")
+              rendered = int(chart.attrib.get("data-language-visible", "0"))
+              if rendered != expected:
+                  raise SystemExit(
+                      f"Language count mismatch in {path}: expected {expected}, rendered {rendered}"
+                  )
+              paths = [p for p in chart.iter(ns + "path") if p.attrib.get("data-language")]
+              names = [p.attrib["data-language"] for p in paths]
+              expected_names = [item["language"] for item in data["languages"][:expected]]
+              if names[:expected] != expected_names:
+                  raise SystemExit(
+                      f"Language labels mismatch in {path}: expected {expected_names}, rendered {names}"
+                  )
+              distinct_colors = {p.attrib.get("fill") for p in paths[:expected]}
+              if len(distinct_colors) != expected:
+                  raise SystemExit(
+                      f"Language palette is not distinct in {path}: {len(distinct_colors)}/{expected}"
+                  )
+              print(f"Language chart OK: {path} -> {', '.join(expected_names)}")
+          PY
 
       - name: Commit generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib/profile-night-green.svg profile-3d-contrib/profile-green.svg
+          git add \
+            profile-3d-contrib/profile-night-green.svg \
+            profile-3d-contrib/profile-green.svg \
+            "profile-3d-contrib/profile-${PROFILE_YEAR}-dark-${PROFILE_RENDER_VERSION}.svg" \
+            "profile-3d-contrib/profile-${PROFILE_YEAR}-light-${PROFILE_RENDER_VERSION}.svg"
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(profile): update adaptive 3D contribution graphs"
+            git commit -m "chore(profile): publish ${PROFILE_RENDER_VERSION} contribution graphs"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
